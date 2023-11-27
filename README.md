@@ -11,3 +11,4 @@
 $ git clone https://github.com/WesleyMsilva/blog-de-noticia
 
 ```
+<img src="blog.png" alt="minigame">
