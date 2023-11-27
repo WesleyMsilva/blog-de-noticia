@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background: #F3F5F7;
+}
+
+.container {
+    width: 900px;
+}
+
+header {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+#top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search input {
+    color: white;
+    font-size: 16px;
+    padding-left: 64px;
+    margin-top: 40px;
+    border: none;
+    background: #FFFFFF33;
+    width: 100%;
+    border-radius: 5px;
+    height: 65px;
+    outline: none;
+}
+
+header #search {
+    position: relative;
+}
+
+header #search img {
+    position: absolute;
+    bottom: 17px;
+    left: 17px;
+}
+
+#search input::placeholder {
+    color: #FFFFFF90;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#box-container {
+    margin-top: 100px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 23px 24px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.date-heart {
+    color: #717171;
+    padding-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-heart img {
+    cursor: pointer;
+}
+
+.text h3{
+    color: #1A202C;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 6px;
+    font-weight: 700;
+}
+
+.text p {
+    color: #717171;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 0 20px;
+    }
+
+    section .container {
+        paddin-top: 50px;
+    }
+
+    .date-heart  img {
+        width: 19.25px;
+        height: 16.93px;
+
+    }
+
+    #search input {
+        padding-left: 38px;
+        height: 40px;
+    }
+
+    header #search img {
+        width: 15.68px;
+        bottom: 12.19px;
+        left: 9.19px;
+    }
+
+    section #box-container {
+        padding: 0 20px;
+    }
+
+    .text h3 {
+        font-size: 18px;
+    }
+}
